@@ -1,6 +1,6 @@
 # Spring Boot and React CRUD Application
 
-This repository contains a CRUD (Create, Read, Update, Delete) application built with Spring Boot for the backend REST API and React for the frontend user interface.
+This repository contains a CRUD (Create, Read, Search) application built with Spring Boot for the backend REST API and React for the frontend user interface.
 
 ## Getting Started
 
