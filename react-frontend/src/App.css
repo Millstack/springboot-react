@@ -1,0 +1,42 @@
+/* App.css */
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the height of the root element */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Define a class for the main content area */
+.content {
+  min-height: calc(100% - 60px); /* Adjust the value to leave space for the footer */
+  padding: 20px;
+}
+
+/* Define styles for the footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+/* Add any additional styles as needed */
