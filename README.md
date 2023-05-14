@@ -55,9 +55,18 @@ The React frontend code is located in the react-frontend folder
 - The backend stores the items in the MySQL database
 - Update the application.properties file with your own database connection details if needed
 
-# License
-This project is licensed under the ### MIT License
+# React App
 
-- You can copy and paste this content into your repository's `README.md file`
-- Feel free to modify it according to your requirements and add any additional information you want to include
+- Clone the repository: https://github.com/Millstack/springboot-react.git
+- Navigate to the project directory: cd react-app
+- Install the dependencies: npm install
+- Start the development server: npm start
+- Open your browser and visit `http://localhost:3000` to see the application
 
+
+## Usage
+- The home page displays a list of all items retrieved from the database
+- Click on the "Add" link in the navigation bar to add a new item
+- Click on the "Search" link in the navigation bar to search for an item by name
+
+You can copy and paste this content into your repository's `README.md file`
