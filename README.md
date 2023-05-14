@@ -34,3 +34,30 @@ To run this application, you need to have the following prerequisites:
 - Open a web browser and go to http://localhost:3000 to access the React frontend
 
 # Application Structure
+
+The repository is structured as follows:
+- `springboot-backend`: Contains the Spring Boot backend application
+- `react-frontend`: Contains the React frontend application
+
+- The Spring Boot backend follows a standard structure with packages for different components:
+- `com.hostbuddy`: Base package
+- `com.hostbuddy.dto`: Contains the data transfer objects (DTOs) or entity classes
+- `com.hostbuddy.repository`: Contains the repository interfaces for interacting with the database
+- `com.hostbuddy.service`: Contains the service interfaces and implementations
+- `com.hostbuddy.controller`: Contains the REST API controllers
+
+The React frontend code is located in the react-frontend folder
+
+# How to Use
+
+- The React frontend provides a user interface to interact with the backend REST API
+- You can add, view all, and search by name items through the frontend
+- The backend stores the items in the MySQL database
+- Update the application.properties file with your own database connection details if needed
+
+# License
+This project is licensed under the ### MIT License
+
+- You can copy and paste this content into your repository's `README.md file`
+- Feel free to modify it according to your requirements and add any additional information you want to include
+
